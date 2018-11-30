@@ -62,7 +62,7 @@
                 <input type="text" placeholder="小猪钢笔套餐 我的世界">
             </form>
             <div></div>
-            <div></div>
+            <div id="bg"></div>
         </div>
     </div>
 </header>
@@ -256,7 +256,7 @@
             </div>
         </li>
         <li>
-            <a href="ferji.html">电器</a>
+            <a href="./ferji.html">电器</a>
             <div class="erji">
                 <div class="center">
                     <ul>
@@ -1483,6 +1483,10 @@
     setTimeout(function () {
         ad.style.display='none';
     },7200);
+    var oBg = document.getElementById('bg')
+    oBg.onclick = function(){
+        window.location.href="./gwc.html"
+    }
 </script>
 
 </body>
